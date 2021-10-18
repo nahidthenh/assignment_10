@@ -1,0 +1,38 @@
+[
+  {
+    "id": 1,
+    "name": "Depression Therapy",
+    "description": "Lorem ipsum dolor sit asetur dor adipcing elit amet seddo it eiusmod tempor lorem dolorin amet sit dolore out slum amet.",
+    "img": "https://templates.hibootstrap.com/perhu/default/assets/img/services/service-bg-1.jpg"
+  },
+  {
+    "id": 2,
+    "name": "Individual Therapy",
+    "description": "Lorem ipsum dolor sit asetur dor adipcing elit amet seddo it eiusmod tempor lorem dolorin amet sit dolore out slum amet.",
+    "img": "https://templates.hibootstrap.com/perhu/default/assets/img/services/service-bg-2.jpg"
+  },
+  {
+    "id": 3,
+    "name": "Couples Therapy",
+    "description": "Lorem ipsum dolor sit asetur dor adipcing elit amet seddo it eiusmod tempor lorem dolorin amet sit dolore out slum amet.",
+    "img": "https://templates.hibootstrap.com/perhu/default/assets/img/services/service-bg-3.jpg"
+  },
+  {
+    "id": 4,
+    "name": "Children Therapy",
+    "description": "Lorem ipsum dolor sit asetur dor adipcing elit amet seddo it eiusmod tempor lorem dolorin amet sit dolore out slum amet.",
+    "img": "https://i.ibb.co/CMwSCnc/female-psychologist-helping-girl-speech-therapy.jpg"
+  },
+  {
+    "id": 5,
+    "name": "Anti-stress Therapy",
+    "description": "Lorem ipsum dolor sit asetur dor adipcing elit amet seddo it eiusmod tempor lorem dolorin amet sit dolore out slum amet.",
+    "img": "https://templates.hibootstrap.com/perhu/default/assets/img/services/service-bg-4.jpg"
+  },
+  {
+    "id": 6,
+    "name": "Post-Divorse Therapy",
+    "description": "Lorem ipsum dolor sit asetur dor adipcing elit amet seddo it eiusmod tempor lorem dolorin amet sit dolore out slum amet.",
+    "img": "https://templates.hibootstrap.com/perhu/default/assets/img/blog/blog-8.jpg"
+  }
+]
