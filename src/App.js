@@ -12,6 +12,9 @@ import Contact from './components/Contact/Contact';
 import PrivateRoute from './components/PrivateRoute/PrivateRoute';
 import AuthProvider from './components/context/AuthProvider';
 import Service from './components/Service/Service';
+import ServiceDetail from './components/ServiceDetail/ServiceDetail';
+
+
 
 function App() {
   return (
@@ -41,6 +44,9 @@ function App() {
             <Route path="/service">
               <Service></Service>
             </Route>
+            <PrivateRoute path="/appointment/:id">
+              <ServiceDetail></ServiceDetail>
+            </PrivateRoute>
             <Route path="/contact">
               <Contact></Contact>
             </Route>
