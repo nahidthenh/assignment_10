@@ -16,14 +16,14 @@ const Price = () => {
                     </div>
                     <div className="row">
                         <div className="col-md-4">
-                            <div class="pricing-table">
-                                <div class="pricing-header">
+                            <div className="pricing-table">
+                                <div className="pricing-header">
                                     <h3>Blood Test</h3>
                                 </div>
-                                <div class="price">
+                                <div className="price">
                                     <span><sup>$</sup>145</span>
                                 </div>
-                                <div class="pricing-features">
+                                <div className="pricing-features">
                                     <ul>
                                         <li>Cholesterol and lipid tests</li>
                                         <li>Oestrogen blood test</li>
@@ -35,20 +35,20 @@ const Price = () => {
                                         <li>Thyroid function tests</li>
                                     </ul>
                                 </div>
-                                <div class="pricing-footer">
-                                    <button class="btn">Appointment Now</button>
+                                <div className="pricing-footer">
+                                    <button className="btn">Appointment Now</button>
                                 </div>
                             </div>
                         </div>
                         <div className="col-md-4">
-                            <div class="pricing-table">
-                                <div class="pricing-header">
+                            <div className="pricing-table">
+                                <div className="pricing-header">
                                     <h3>Body CT Scan</h3>
                                 </div>
-                                <div class="price">
+                                <div className="price">
                                     <span><sup>$</sup>350</span>
                                 </div>
-                                <div class="pricing-features">
+                                <div className="pricing-features">
                                     <ul>
                                         <li>Cholesterol and lipid tests</li>
                                         <li>Oestrogen blood test</li>
@@ -60,20 +60,20 @@ const Price = () => {
                                         <li>Thyroid function tests</li>
                                     </ul>
                                 </div>
-                                <div class="pricing-footer">
-                                    <button class="btn">Appointment Now</button>
+                                <div className="pricing-footer">
+                                    <button className="btn">Appointment Now</button>
                                 </div>
                             </div>
                         </div>
                         <div className="col-md-4">
-                            <div class="pricing-table">
-                                <div class="pricing-header">
+                            <div className="pricing-table">
+                                <div className="pricing-header">
                                     <h3>Urine Test</h3>
                                 </div>
-                                <div class="price">
+                                <div className="price">
                                     <span><sup>$</sup>125</span>
                                 </div>
-                                <div class="pricing-features">
+                                <div className="pricing-features">
                                     <ul>
                                         <li>Cholesterol and lipid tests</li>
                                         <li>Oestrogen blood test</li>
@@ -85,8 +85,8 @@ const Price = () => {
                                         <li>Thyroid function tests</li>
                                     </ul>
                                 </div>
-                                <div class="pricing-footer">
-                                    <button class="btn">Appointment Now</button>
+                                <div className="pricing-footer">
+                                    <button className="btn">Appointment Now</button>
                                 </div>
                             </div>
                         </div>

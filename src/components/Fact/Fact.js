@@ -15,21 +15,21 @@ const Fact = () => {
                         </div>
                         <div className="col-md-3">
                             <div className="fact-box">
-                                <i class="fas fa-user-md"></i>
+                                <i className="fas fa-user-md"></i>
                                 <h5>80</h5>
                                 <p>Experienced Doctors</p>
                             </div>
                         </div>
                         <div className="col-md-3">
                             <div className="fact-box">
-                                <i class="fas fa-procedures"></i>
+                                <i className="fas fa-procedures"></i>
                                 <h5>350</h5>
                                 <p>Successful Operations</p>
                             </div>
                         </div>
                         <div className="col-md-3">
                             <div className="fact-box">
-                                <i class="fas fa-bed"></i>
+                                <i className="fas fa-bed"></i>
                                 <h5>150</h5>
                                 <p>Number of Beds</p>
                             </div>

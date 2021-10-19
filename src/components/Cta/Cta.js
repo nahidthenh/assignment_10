@@ -7,12 +7,12 @@ const Cta = () => {
                 <div className="container">
                     <div className="row">
                         <div className="col-md-12">
-                            <div class="banner-content">
-                                <div class="banner-heading">
-                                    <h2 class="banner-title">Don’t delay care for you <br /> and those you love.</h2>
+                            <div className="banner-content">
+                                <div className="banner-heading">
+                                    <h2 className="banner-title">Don’t delay care for you <br /> and those you love.</h2>
                                 </div>
-                                <div class="banner-actions">
-                                    <a href="how-it-works.html" class="btn">
+                                <div className="banner-actions">
+                                    <a href="how-it-works.html" className="btn">
                                         <span>Learn More</span>
                                     </a>
                                 </div>

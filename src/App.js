@@ -11,6 +11,7 @@ import Error from './components/Error/Error';
 import Contact from './components/Contact/Contact';
 import PrivateRoute from './components/PrivateRoute/PrivateRoute';
 import AuthProvider from './components/context/AuthProvider';
+import Service from './components/Service/Service';
 
 function App() {
   return (
@@ -37,9 +38,12 @@ function App() {
             <Route path="/register">
               <Resigter></Resigter>
             </Route>
-            <PrivateRoute path="/contact">
+            <Route path="/service">
+              <Service></Service>
+            </Route>
+            <Route path="/contact">
               <Contact></Contact>
-            </PrivateRoute>
+            </Route>
             <Route path="*">
               <Error></Error>
             </Route>

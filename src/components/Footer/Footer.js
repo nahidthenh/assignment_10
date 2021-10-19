@@ -44,9 +44,9 @@ const Footer = () => {
                         <div className="col-md-3">
                             <h5 className="mb-3">Subscribe</h5>
                             <div className="footer-item">
-                                <div class="input-group mb-3">
-                                    <input type="text" class="form-control" placeholder="Email" aria-label="Recipient's username" aria-describedby="button-addon2" />
-                                    <button class="btn btn-outline-secondary" type="button" id="button-addon2">Submit</button>
+                                <div className="input-group mb-3">
+                                    <input type="text" className="form-control" placeholder="Email" aria-label="Recipient's username" aria-describedby="button-addon2" />
+                                    <button className="btn btn-outline-secondary" type="button" id="button-addon2">Submit</button>
                                 </div>
                             </div>
                         </div>
