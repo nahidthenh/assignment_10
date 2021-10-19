@@ -6,6 +6,7 @@ import Header from './components/Header/Header';
 import Price from './components/Price/Price';
 import About from './components/About/About';
 import Login from './components/Login/Login';
+import Resigter from './components/Register/Resigter';
 
 function App() {
   return (
@@ -24,6 +25,9 @@ function App() {
           </Route>
           <Route path="/login">
             <Login></Login>
+          </Route>
+          <Route path="/register">
+            <Resigter></Resigter>
           </Route>
         </Switch>
       </Router>

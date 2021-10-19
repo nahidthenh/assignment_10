@@ -1,6 +1,9 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
+import useFirebase from '../Hooks/UseFirebase';
 
 const Login = () => {
+    const { singInUsingGoogle, singInUsingGithub } = useFirebase();
     return (
         <div>
             <div className="login-area">
@@ -17,8 +20,12 @@ const Login = () => {
                                 <br />
                                 <input type="submit" value="Login" />
                             </form>
+                            <p> <Link to="/register">Dont have  a account</Link> </p>
 
-                            <p>Dont have  a account</p>
+                            <div>-----------------------</div>
+                            <button onClick={singInUsingGoogle}>Google</button>
+                            <button onClick={singInUsingGithub}>Github</button>
+
                         </div>
                     </div>
                 </div>

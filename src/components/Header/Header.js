@@ -1,7 +1,9 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
+import useFirebase from '../Hooks/UseFirebase';
 import './Header.css'
 const Header = () => {
+    const { user, logout } = useFirebase();
     return (
         <div>
             <nav>
@@ -11,10 +13,15 @@ const Header = () => {
                     <li> <Link to="/price">Price</Link></li>
                     <li> <Link to="/service">Services</Link></li>
                     <li> <Link to="/login">Login</Link></li>
-                    <li> <Link to="/Contact">Contact</Link></li>
+                    <li> <Link to="/register">Register</Link></li>
+                    <li> <Link to="/contact">Contact</Link></li>
+                    {/* <li></li> */}
+                    {user.email && <button onClick={logout}>Logout</button>}
+
+
                 </ul>
             </nav>
-        </div>
+        </div >
     );
 };
 

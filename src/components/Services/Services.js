@@ -10,7 +10,6 @@ const Services = ({ services }) => {
                 <p>{description}</p>
                 <button>View More</button>
             </div>
-
         </div>
     );
 };
