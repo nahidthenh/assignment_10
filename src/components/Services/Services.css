@@ -1,3 +1,23 @@
 .service-card img {
     width: 380px;
+    height: 250px;
+    border-radius: 10px;
+}
+
+.service-card h3 {
+    margin: 10px 0;
+    font-size: 22px;
+    font-weight: 400;
+}
+
+.service-card p {
+    margin: 10px 0;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.service-card {
+    box-shadow: 0px 2px 3px 0px #5f6368;
+    padding: 30px;
+    border-radius: 10px;
 }
