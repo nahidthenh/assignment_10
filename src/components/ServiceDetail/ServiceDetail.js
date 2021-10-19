@@ -4,32 +4,32 @@ import Footer from "../Footer/Footer";
 
 const ServiceDetails = () => {
     const { id } = useParams();
-    const [service, setService] = useState([]);
+    const [service, setService] = useState({});
     useEffect(() => {
-        fetch("fakedata.json")
+        fetch("/fakedata.json")
             .then((res) => res.json())
-            .then((data) => setService(data));
-    }, []);
+            .then((data) => {
+                const details = data?.find((td) => td.id == id);
+                setService(details);
+            });
+    }, [id]);
 
-    const ExactIteam = service.filter((td) => td._id === id);
-    // const { name, description, img, _id } = ExactIteam;
-    // console.log(service);
     return (
         <div>
-            <div className="container mt-5 mb-5">
-                {/* <h1>This is service Detail Page </h1>
-                <h3>Name : {name}</h3>
-                <h3>description : {ExactIteam.description}</h3> */}
-                <h1>This is service Detail Page </h1>
-                <h3>Name : {ExactIteam.name}</h3>
-                <h3>Price : {ExactIteam.price}</h3>
-                <h3>Description : {ExactIteam.description}</h3>
+            <div className="container">
+                <h1 className="text-center m-5">This is service Detail </h1>
+                <div className="row">
+                    <div className="offset-md-3 col-md-6 text-center">
+                        <img src={service?.img} alt="" />
+                        <h3>{service?.name}</h3>
+                        <p>{service?.description}</p>
+                    </div>
+                </div>
             </div>
-
-
             <Footer></Footer>
         </div>
     );
+
 };
 
 export default ServiceDetails;

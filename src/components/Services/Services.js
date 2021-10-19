@@ -2,7 +2,7 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import './Services.css'
 const Services = ({ services }) => {
-    const { name, description, img, _id } = services;
+    const { name, description, img, id } = services;
 
     return (
         <div>
@@ -11,7 +11,7 @@ const Services = ({ services }) => {
                 <h3>{name}</h3>
                 <p>{description}</p>
                 {/* <button className="btn">View More</button> */}
-                <Link to={`/appointment/${_id}`}>
+                <Link to={`/appointment/${id}`}>
                     <button className="btn">Details</button>
                 </Link>
             </div>
