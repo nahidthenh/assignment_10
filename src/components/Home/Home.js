@@ -6,8 +6,11 @@ import Footer from '../Footer/Footer';
 import Service from '../Service/Service';
 import './Home.css'
 const Home = () => {
+    
     return (
         <div>
+
+          
 
             <Banner></Banner>
             <Service></Service>

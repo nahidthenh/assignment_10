@@ -1,0 +1,14 @@
+.error-title {
+    text-align: center;
+    margin: 0 auto;
+    margin: 50px 0;
+    height: 30vh;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+.error-title i {
+    color: red;
+    margin-right: 10px;
+}

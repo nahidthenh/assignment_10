@@ -16,6 +16,9 @@ const Header = () => {
                     <li> <Link to="/register">Register</Link></li>
                     <li> <Link to="/contact">Contact</Link></li>
                     {/* <li></li> */}
+                    {/* const {user} = useAuth();
+                    <h5>User: {user.displayName}</h5> */}
+                    <span>{user.displayName} </span>
                     {user.email && <button onClick={logout}>Logout</button>}
 
 
